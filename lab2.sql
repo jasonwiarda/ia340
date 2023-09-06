@@ -1,10 +1,6 @@
 -- Create schemas
 
 -- Create tables
-CREATE TABLE IF NOT EXISTS professor
-(
-    
-);
 
 CREATE TABLE IF NOT EXISTS student
 (
