@@ -44,3 +44,7 @@
 
 --insert into course(c_number,c_name,room,p_email)
 --values ('c4','facebook','r1','p3@jmu.edu')
+
+--Q2.6 We need to change the course table first because we cannot delete p1 off the bat.
+
+
