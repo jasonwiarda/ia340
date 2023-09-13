@@ -47,4 +47,9 @@
 
 --Q2.6 We need to change the course table first because we cannot delete p1 off the bat.
 
+--update course
+--set p_email = 'p3@jmu.edu'
+--where p_email = 'p1@jmu.edu';
 
+--delete from professor
+--where p_email = 'p1@jmu.edu'
