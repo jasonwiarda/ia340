@@ -36,3 +36,11 @@
 --	('s3@jmu.edu','c3')
 	
 --	select * from enroll
+
+--Q2.5  We need to insert Professor into the table first because of the relationship between tables (if we do not have p3, cannot assign a course to the professor)
+
+--insert into professor (p_email,p_name,office)
+--values ('p3@jmu.edu','p3','o3') ;
+
+--insert into course(c_number,c_name,room,p_email)
+--values ('c4','facebook','r1','p3@jmu.edu')
