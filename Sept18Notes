@@ -30,3 +30,19 @@
 
 ---group by house_type
 ---having house_type is not null 
+---select professor.p_name,
+---	course.c_name
+---from professor
+---inner join course
+---on professor.p_email = course.p_email
+
+
+---create view p_name_join_c_name as 
+
+---select professor.p_name,
+	---course.c_name
+---from professor
+---inner join course
+---on professor.p_email = course.p_email
+
+---select * from public.p_name_join_c_name
